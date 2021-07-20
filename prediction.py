@@ -15,6 +15,7 @@ prediction = tf.keras.models.load_model('modelos/predict_clothes.h5')
 print('modelo Cargado')
 
 #seleccionado la imagen analizar
+#puedes cambiar la  variable num_sample para probar otra imagen
 num_sample = 1
 new_img = test_images[num_sample]
 

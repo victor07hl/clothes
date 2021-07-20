@@ -1,0 +1,29 @@
+# para no tener compliaciones con las librerias se sugiere crear un entorno virtual 
+e instalarle las librerias utilizadas.
+
+Nota: El proyecto se ejecuto en ambiente de linux. El proceso instalacion de algunas librerias pueden 
+variar
+
+#tener instalado python 
+
+1.crear ambiente virtual
+ ejecute en la linea de comandos el siguiente comando
+  $python3.8 -m venv /tu/direccion/donde/quieres/crear/el/ambientevirtual/nombreambientevirtual
+
+2. activar el entorno virtual creado en paso 1
+  $source direccion_de_tu_ambiente_virtual/bin/activate
+
+3. intallar librerias
+  3.1 instalar matplotlib (libreria utilizada para mostrar las imagenes)
+      ejecutar los siguientes comandos
+  $python -m pip install -U pip
+  $python -m pip install -U matplotlib
+  
+  3.2 instalar tensorflow
+    $pip install tensorflow
+
+ 3.3 instalar pyqt5 (necesaria para la ejecucion de la libreria matplotlib)
+    $pip install PyQt5
+
+
+
