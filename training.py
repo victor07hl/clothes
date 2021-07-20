@@ -60,4 +60,5 @@ print('\nTest accuracy:', test_acc)
 
 #Guardando modelo
 model.save('modelos/predict_clothes.h5')
+print('modelo guardado')
 
